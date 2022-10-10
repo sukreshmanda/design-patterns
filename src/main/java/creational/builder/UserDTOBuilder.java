@@ -1,4 +1,4 @@
-package creational.builder2.builder;
+package creational.builder;
 
 import java.time.LocalDate;
 

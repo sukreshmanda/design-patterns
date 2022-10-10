@@ -1,7 +1,7 @@
 package creational.builder2;
 
-import creational.builder2.builder.Address;
-import creational.builder2.builder.User;
+import creational.builder.Address;
+import creational.builder.User;
 
 import java.time.LocalDate;
 
