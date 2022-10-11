@@ -1,6 +1,4 @@
-package creational.builder.builder2;
-
-import creational.builder.builder1.Address;
+package creational.builder;
 
 import lombok.Getter;
 
@@ -17,6 +15,9 @@ public class UserDTO {
         this.name = name;
         this.address = address;
         this.age = age;
+    }
+    public static Builder builder(){
+        return new Builder();
     }
 
     public static class Builder{

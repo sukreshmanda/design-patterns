@@ -1,5 +1,6 @@
-package creational.builder.builder1;
+package creational.builder;
 
+import creational.builder.Address;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
