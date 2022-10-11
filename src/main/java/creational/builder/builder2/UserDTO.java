@@ -13,18 +13,6 @@ public class UserDTO {
     private String address;
     private String age;
 
-    private void setName(String name) {
-        this.name = name;
-    }
-
-    private void setAge(String age) {
-        this.age = age;
-    }
-
-    private void setAddress(String address) {
-        this.address = address;
-    }
-
     private UserDTO(String name, String address, String age) {
         this.name = name;
         this.address = address;
